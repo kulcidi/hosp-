@@ -1,0 +1,229 @@
+@font-face{
+    font-family: MonsterattS;
+    src: url("./fonts/Montserrat-SemiBold.ttf");
+}
+@font-face {
+    font-family: MonsterattB;
+    src: url("./fonts/Montserrat-Bold.ttf");
+}
+@font-face{
+    font-family: FounderR;
+    src: url("./fonts/Founder-Regular-BF64d30a7d71317.otf");
+}
+@font-face {
+    font-family: FounderL;
+    src: url('./fonts/Founder-Light-BF64d30a7d65af2.otf');
+}
+html{
+    min-width: 680px;
+}
+body {
+    font-family: Montserrat;
+    margin: 0;
+}
+.button {
+    transition: all 0.05s;
+  }
+  
+  .button:hover {
+    background-color: #b6baf9;
+    cursor: pointer;
+  }
+  
+  .button:active {
+    transform: scale(0.98, 0.98);
+  }
+  
+nav{
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+  font-family: "MonsterattS";
+  color: #333333;
+  margin-left: 6vh;
+  font-size: 20;
+}
+.Main_span{
+    font-family: "MonsterattB";
+  color: #000000;
+  margin-left: 6vh;
+  font-size: 32;
+  margin-top: -25px;
+}
+
+.doctors{
+    margin-right: 9vh;
+    margin-left: 6vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin-top: 35px;
+}
+.doctors_one{
+    padding-top: 50px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    height: 350px;
+    border: #000000;
+    border-width: px;
+    align-items: center;
+}
+
+.doctors_one__image{
+    display: flex;
+    align-items: center;
+    
+}
+
+.doctors_one__spans{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'MonsterattB';
+}
+#psy{
+    position: relative;
+    margin-top: -15px;
+    font-family: 'FounderL';
+    font-size: 14pt;
+}
+.doctors_one__buttons{
+    display: flex;
+    margin-top: -5px;
+    gap: 3px;
+}
+.doctors_one:hover {
+    box-shadow: 5px 5px 15px rgb(211, 211, 211);
+  }
+.doctors_one:active{
+    transform: scale(0.9);
+  }
+  .doctors_two:active{
+    transform: scale(0.9);
+  }
+  .doctors_three:active{
+    transform: scale(0.9);
+  }
+.doctors_one__spans h2:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 0;
+}
+#button:hover {
+    filter: brightness(105%);
+    cursor: pointer;
+  }
+.doctors_two{
+    padding-top: 50px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    height: 350px;
+    border: #000000;
+    align-items: center;
+}
+
+.doctors_two__image{
+    display: flex;
+    align-items: center;
+    
+}
+
+.doctors_two__spans{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'MonsterattB';
+}
+
+.doctors_two__buttons{
+    display: flex;
+    margin-top: -5px;
+    gap: 3px;
+}
+.doctors_two:hover {
+    box-shadow: 5px 5px 15px rgb(211, 211, 211);
+  }
+.doctors_two__spans h2:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 0;
+}
+.doctors_three{
+    padding-top: 50px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    height: 350px;
+    border: #000000;
+    align-items: center;
+}
+
+.doctors_three__image{
+    display: flex;
+    align-items: center;
+    
+}
+
+.doctors_three__spans{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'MonsterattB';
+}
+
+.doctors_three__buttons{
+    display: flex;
+    margin-top: -5px;
+    gap: 3px;
+}
+.doctors_three:hover {
+    box-shadow: 5px 5px 15px rgb(211, 211, 211);
+  }
+.doctors_three__spans h2:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 0;
+}
+.Main1_span1{
+    font-family: "MonsterattB";
+  color: #000000;
+  margin-left: 6vh;
+  font-size: 32;
+  margin-top: 50px;
+}
+.Main1_why{
+    background-color: #F0F0F7;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px;
+    padding-left: 10%;
+}
+#bigtext{
+    font-family: 'FounderR';
+    font-weight: 300;
+    font-size: 18pt;
+}
+.Main1_why__order{
+    justify-content: space-between;
+    font-family: 'FounderL';
+    font-size: 9pt;
+}
+ul{
+    font-family: 'FounderL';
+    font-size: 19pt;
+}
+@media (min-height: 870px) and (max-height: 1867px){
+    .Main1_why{
+        justify-content: left;
+    }
+}
+nav h3:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 0;
+    cursor: pointer;
+}

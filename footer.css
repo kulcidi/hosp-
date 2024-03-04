@@ -1,0 +1,147 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.footer__needs {
+  align-items: center;
+  justify-content: center;
+  min-height: 345px;
+  height: fit-content;
+  background-color: #425ea6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__needs__top {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.footer__needs__top div {
+  text-align: end;
+  color: #fff;
+}
+
+.footer__needs__top div span {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+
+.footer__needs__top div h3 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+
+.footer__needs__buttom {
+  width: fit-content;
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__needs__buttom nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-bottom: 63px;
+}
+
+.footer__needs__buttom nav button {
+  width: 176px;
+  height: 70px;
+  background-color: #2b2e66;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.footer__needs__buttom h3 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.footer__links {
+  min-height: 346px;
+  height: fit-content;
+  background-color: #2b2e66;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 30px 20px;
+}
+
+.links__block {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.links__block h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+.links__block a,
+.links__block span {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  text-decoration: none;
+}
+
+.links__block img {
+  height: auto;
+  width: 45px;
+  color: #fff;
+}
+
+.links__block nav {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+@media screen and (min-width: 850px) {
+  .footer__links {
+    padding: 30px 150px;
+  }
+
+  .links__block {
+    width: 305px;
+  }
+}

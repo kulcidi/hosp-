@@ -1,0 +1,86 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.header__phone-number {
+  height: 37px;
+  background-color: #2b2e66;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.header__phone-number span {
+  margin-right: 16px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: right;
+
+  color: #ffffff;
+}
+
+.header__buttons {
+  box-sizing: border-box;
+  padding: 0 20px;
+  height: 94px;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__gosu-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+
+.header__buttons__right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.header__gosu-login {
+  width: 228px;
+  height: 36px;
+  border-radius: 30px;
+  border: 0;
+  background-color: #5b86c7;
+}
+
+.header__login {
+  width: 36px;
+  height: 36px;
+  border-radius: 30px;
+  border: 0;
+  background-color: #425ea6;
+}
+
+@media screen and (min-width: 850px) {
+  .header__logo {
+    margin-left: 174px;
+  }
+
+  .header__buttons__right {
+    margin-right: 135px;
+  }
+
+  .header__buttons {
+    padding: 0;
+  }
+}
