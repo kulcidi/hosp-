@@ -1,7 +1,10 @@
-
+@font-face{
+  font-family: MonsterattS;
+  src: url("./fonts/Montserrat-SemiBold.ttf");
+}
 body {
+  font-family: 'MonsterattS';
   margin: 0;
-  font-family: Montserrat;
   min-width: 680px;
 }
 
