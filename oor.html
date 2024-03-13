@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function darkenSVG(button) {
+            var img = button.querySelector('img');
+            var isDarkened = img.style.filter === "brightness(0.5)";
+            img.style.filter = isDarkened ? "brightness(1)" : "brightness(0.5)";
+        }
+    </script>
+</head>
+<body>
+    <div class="write_calendar__days1">
+        <b>пн</b>
+        <button onclick="darkenSVG1(this)"><img src="./svg/month/empty.svg"></button>
+        <button onclick="darkenSVG1(this)"><img src="./svg/month/4.svg"></button>
+        <button onclick="darkenSVG(this)"><img src="./svg/month/11.svg"></button>
+        <button onclick="darkenSVG(this)"><img src="./svg/month/18.svg"></button>
+        <button onclick="darkenSVG(this)"><img src="./svg/month/25.svg"></button>
+    </div>
+</body>
+</html>

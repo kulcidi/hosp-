@@ -21,19 +21,18 @@ body {
     font-family: Montserrat;
     margin: 0;
 }
-.button {
+    .button {
     transition: all 0.05s;
   }
   
-  .button:hover {
-    background-color: #b6baf9;
+  .button:hover, #writeButton {
     cursor: pointer;
   }
   
-  .button:active {
+  .button:active, .writeButton:active {
     transform: scale(0.98, 0.98);
   }
-  
+
 nav{
   display: flex;
   justify-content: flex-start;
@@ -112,7 +111,6 @@ nav{
     text-decoration-thickness: 0;
 }
 #button:hover {
-    filter: brightness(105%);
     cursor: pointer;
   }
 .doctors_two{

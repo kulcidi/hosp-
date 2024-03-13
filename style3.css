@@ -22,6 +22,9 @@ body{
     margin: 0;
     font-family: Montserrat;
 }
+button{
+    border: none;
+}
 nav{
     display: flex;
     justify-content: flex-start;

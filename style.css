@@ -12,14 +12,12 @@ body {
   transition: all 0.05s;
 }
 
-.button:hover {
-  background-color: #b6baf9;
-}
-
 .button:active {
   transform: scale(0.98, 0.98);
 }
-
+#hirurg{
+  margin-top: 11px;
+}
 .button--doctors {
   height: 39.08px;
   border-radius: 30px;
@@ -34,7 +32,13 @@ body {
   letter-spacing: 0em;
   text-align: center;
 }
-
+#pipi{
+  font-size: 175%;
+  border-bottom: 50%;
+}
+#pipi1{
+  filter: brightness(65%);
+}
 main {
   display: flex;
   flex-direction: column;
@@ -100,9 +104,10 @@ h1 {
   letter-spacing: 0em;
   text-align: left;
 }
-
+.button:hover{
+  cursor: pointer;
+}
 .bottom__block--light-blue .bottom__block__header {
-  background-color: #b6baf9;
 }
 
 .bottom__block--blue .bottom__block__header {
