@@ -55,6 +55,37 @@ nav{
     display: none;
     
 }
+#left{
+    margin-right: 50px;
+    cursor: pointer;
+}
+#left:active{
+    scale: 0.8;
+}
+#right{
+    cursor: pointer;
+}
+#right:active{
+    scale: 0.8;
+}
+.write_inpute{
+    margin-left: 120px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+label{
+    font-family: "MonsterattS";
+    font-size: 14pt;
+}
+input{
+    transform:scale(1.5);
+    opacity:0.9;
+    cursor:pointer;
+
+}
 .main_info-text img{
     display: none;
 }
@@ -138,6 +169,18 @@ nav{
         margin-top: 40px;
         justify-content: center;
 }
+#special1{
+    background-color: #EFF0F7;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.silly{
+    background-color: #EFF0F7;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
     #main_info-text1{
         display: flex;
         flex-direction: row;
@@ -182,7 +225,7 @@ nav{
     .write {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-around;
         
 }
 }

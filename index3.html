@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./footer.css" />
     <link rel="stylesheet" href="./header.css" />
     <link rel="icon" href="./images/icooo.png" type="image/x-icon">
-    <script>
+    <!-- <script>
         window.addEventListener("DOMContentLoaded", function() {
           [].forEach.call( document.querySelectorAll('.tel'), function(input) {
             var keyCode;
@@ -48,9 +48,8 @@
         
           });
         
-        });</script>
+        });</script>-->        
         <script src="./need.js"></script>
-    
 </head>
 <body>
     <header class="header">
@@ -60,10 +59,10 @@
         <section class="header__buttons">
           <img class="header__logo" src="./images/logo.png" alt="error" />
           <section class="header__buttons__right">
-            <button class="button header__gosu-login">
-              <img src="./images/gosu.png" alt="error" />
-              Войти через госуслуги
-            </button>
+            <a href="https://www.gosuslugi.ru/"><button class="button header__gosu-login">
+                <img src="./images/gosu.svg" alt="error" />
+                Войти через госуслуги
+              </button></a>
             <button class="button header__login">
               <img src="./images/account.png" alt="error" />
             </button>
@@ -99,35 +98,35 @@
             </div>
             <div class="doctor2">
                 <h2>2</h2>
-                <span>высших образования</span>
+                <span>красных диплома</span>
             </div>
             <div class="doctor3">
                 <h2>25</h2>
                 <span>лет работы</span>
             </div>
             <div class="doctor4">
-                <h2>393</h2>
-                <span>отзывов</span>
+                <h2>4,8</h2>
+                <span>рейтинг</span>
             </div>
         </div>
-        <h1 id="special">Записаться</h1>
+        <div class="silly"><h1 id="special1">Записаться</h1>
         <div class="write">
             <div class="write_calendar">
                 <div class="write_calendar__topic">
                     <h1 id="month">Декабрь</h1>
                     <div class="write_calendar__2">
-                        <img src="./svg/arrowl.svg">
-                        <img src="./svg/arrowr.svg">
+                        <img src="./svg/arrowl.svg" id="left">
+                        <img src="./svg/arrowr.svg" id="right">
                     </div>
                 </div>
                 <div class="write_calendar__days">
                     <div class="write_calendar__days1">
                         <b>пн</b>
                         <button><img src="./svg/month/empty.svg"></button>
-                        <button onclick="darkenSVG(this)"><img src="./svg/month/4.svg"></button>
+                        <button><img src="./svg/month/4.svg"></button>
                         <button onclick="darkenSVG(this)"><img src="./svg/month/11.svg"></button>
                         <button onclick="darkenSVG(this)"><img src="./svg/month/18.svg"></button>
-                        <button onclick="darkenSVG(this)"><img src="./svg/month/25.svg"></button>
+                        <button><img src="./svg/month/25.svg"></button>
                     </div>
                     <div class="write_calendar__days2">
                         <b>ср</b>
@@ -157,7 +156,7 @@
                         <b>пт</b>
                         <button onclick="darkenSVG(this)"><img src="./svg/month/1.svg"></button>
                         <button onclick="darkenSVG(this)"><img src="./svg/month/8.svg"></button>  
-                        <button onclick="darkenSVG(this)"><img src="./svg/month/15.svg"></button>
+                        <button><img src="./svg/month/15.svg"></button>
                         <button onclick="darkenSVG(this)"><img src="./svg/month/22.svg"></button>
                         <button onclick="darkenSVG(this)"><img src="./svg/month/29.svg"></button>
                     </div>
@@ -165,24 +164,24 @@
                         <b>cб</b>
                         <button onclick="darkenSVG(this)"><img src="./svg/month/2.svg"></button> 
                         <button onclick="darkenSVG(this)"><img src="./svg/month/9.svg"></button>
-                        <button onclick="darkenSVG(this)"><img src="./svg/month/16.svg"></button>
+                        <button><img src="./svg/month/16.svg"></button>
                         <button onclick="darkenSVG(this)"><img src="./svg/month/23.svg"></button>
-                        <button onclick="darkenSVG(this)"><img src="./svg/month/30.svg"></button>
+                        <button><img src="./svg/month/30.svg"></button>
                     </div>
                     <div class="write_calendar__days7">
                         <b>вс</b>
-                        <button onclick="darkenSVG(this)"><img src="./svg/month/3.svg"></button>                        
+                        <button><img src="./svg/month/3.svg"></button>                        
                         <button onclick="darkenSVG(this)"><img src="./svg/month/10.svg"></button>
                         <button onclick="darkenSVG(this)"><img src="./svg/month/17.svg"></button>
                         <button onclick="darkenSVG(this)"><img src="./svg/month/24.svg"></button>
-                        <button onclick="darkenSVG(this)"><img src="./svg/month/31.svg"></button>
+                        <button><img src="./svg/month/31.svg"></button>
                     </div>
                 </div>
             </div>
             <div class="write_time">
                 <div class="write_time__topic">
                     <h1>13.12.2023</h1>
-                </div>
+            </div>
                 <div class="write_time__columns">
                     <div class="write_time__columns1">
                         <button onclick="darkenSVG1(this)">
@@ -191,7 +190,7 @@
                         <button onclick="darkenSVG1(this)">
                             <img src="./svg/time/t12.svg" alt="Button 2">
                         </button>
-                        <button onclick="darkenSVG1(this)">
+                        <button>
                             <img src="./svg/time/t13.svg" alt="Button 3">
                         </button>
                         <button onclick="darkenSVG1(this)">
@@ -200,7 +199,7 @@
                     </div>
                     
                     <div class="write_time__columns2">
-                        <button onclick="darkenSVG1(this)">
+                        <button>
                             <img src="./svg/time/t21.svg" alt="Button 5">
                         </button>
                         <button onclick="darkenSVG1(this)">
@@ -216,7 +215,12 @@
                     
                 </div>
             </div>
-            <div class="write_input">
+            <div class="write_inpute">
+            <input id="html" type="checkbox">
+            <label for="html">Отправить смс-уведомление за день до приема</label>
+        </div>
+        
+            <!-- <div class="write_input">
                 <div class="write_input__1">
                     <h1>Пациент</h1>
                     <input type="text" required placeholder="Введите имя" id="input1">
@@ -225,11 +229,11 @@
                     <h1>Телефон</h1>
                     <input  required placeholder="Введите номер" value="" class="tel">
                 </div>
-            </div>
+            </div>-->
             
         </div><div class="write_sendme">
             <a href="./index3.html"><img src="./svg/send1.svg"></a>
-            </div>
+            </div> 
         <footer class="footer">
             <section class="footer__links">
             <section class="links__block">
