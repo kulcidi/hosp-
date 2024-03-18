@@ -51,6 +51,9 @@ nav{
 }
 
 .doctors{
+
+
+    justify-content: center; 
     margin-right: 9vh;
     margin-left: 6vh;
     display: flex;
@@ -187,6 +190,10 @@ nav{
     text-decoration: underline;
     text-decoration-thickness: 0;
 }
+a {
+    color: #333333;
+    text-decoration: none; /* Убираем подчёркивание */
+   }
 .Main1{
     margin-top: 50px;
     padding-top: 0.1px;

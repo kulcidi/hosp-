@@ -23,4 +23,3 @@ function darkenSVG1(button) {
 
     img1.style.filter = currentBrightness1 === "brightness(1)" ? "brightness(0.8)" : "brightness(1)";
 }
-

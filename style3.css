@@ -25,6 +25,12 @@ body{
 button{
     border: none;
 }
+#special1{
+    background-color: #EFF0F7;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
 nav{
     display: flex;
     justify-content: flex-start;
@@ -55,6 +61,10 @@ nav{
     display: none;
     
 }
+a {
+    color: #333333;
+    text-decoration: none; /* Убираем подчёркивание */
+   }
 #left{
     margin-right: 50px;
     cursor: pointer;
@@ -99,6 +109,8 @@ input{
     justify-content: space-around;
 
 }
+.silly{
+    background-color: #EFF0F7;}
 .doctor1{
  display: flex;
  flex-direction: column;

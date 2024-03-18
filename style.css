@@ -11,13 +11,16 @@ body {
 .button {
   transition: all 0.05s;
 }
-
+button header__gosu-login
 .button:active {
   transform: scale(0.98, 0.98);
 }
 #hirurg{
   margin-top: 11px;
 }
+a {
+  text-decoration: none; /* Убираем подчёркивание */
+ }
 .button--doctors {
   height: 39.08px;
   border-radius: 30px;
@@ -272,6 +275,7 @@ h1 {
 .naviga{
   position: fixed;
   overflow: auto;
+  z-index: 99;
   display: flex;
   flex-direction: column;
   gap: 5px;
