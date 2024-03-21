@@ -37,7 +37,9 @@ nav{
     gap: 5px;
     font-family: "MonsterattS";
     color: #333333;
-    margin-left: 6vh;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 12%;
     font-size: 20;
   }
   nav h3:hover{

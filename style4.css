@@ -1,0 +1,113 @@
+@font-face{
+    font-family: MonsterattS;
+    src: url("./fonts/Montserrat-SemiBold.ttf");
+  }
+  body {
+    font-family: 'MonsterattS';
+    margin: 0;
+    min-width: 680px;
+    scroll-behavior: smooth;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  nav1{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    font-family: "MonsterattS";
+    color: #333333;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 12%;
+    font-size: 20;
+  }
+  nav h3:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 0;
+    cursor: pointer;
+}
+.name{
+  display: flex;
+    justify-content: center;
+    font-family: "MonsterattS";
+}
+.write{
+  background-color: #F0F0F7;
+}
+.name_disgusting{
+  display: flex;
+  justify-content: space-around;
+}
+#flipaflop{
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0px;
+  justify-content: center;
+}
+#flipaflop img{
+  width: 30px;
+  height: 30px;
+}
+.doctor_information{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+#super {
+  width: 219px;
+  display: flex;
+  padding-bottom: 30px;
+}
+.doctor h1{
+  margin: -4px;
+}
+.doctor h2{
+  margin: -4px;
+  margin-bottom: 10px;
+}
+  .doctor {
+    margin-right: 12%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 12%;
+    box-sizing: border-box;
+    align-items: center;
+  }
+.nam h2{
+  cursor: pointer;
+}
+  .name_doctor{
+    width: 500px;
+    height: auto;
+    box-sizing: border-box;
+  }
+  .ned :hover {
+    transition: all 0.05s;
+  }
+@media screen and (min-width: 1000px){
+  .name_disgusting{
+    display: flex;
+    font-family: "MonsterattS";
+    color: #333333;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 12%;
+    font-size: 20;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .doctor {
+    margin-right: 12%;
+    display: flex;
+    margin-left: 12%;
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-items: stretch;
+  }
+  .ned {
+    display: flex;
+    justify-content: center;
+  }
+}

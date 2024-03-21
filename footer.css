@@ -7,12 +7,11 @@
 .footer__needs {
   align-items: center;
   justify-content: center;
-  min-height: 345px;
+  min-height: 200px;
   height: fit-content;
-  background-color: #425ea6;
+  background-color: #eff0f7;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .footer__needs__top {
@@ -35,7 +34,6 @@
   letter-spacing: 0em;
   text-align: right;
 }
-
 .footer__needs__top div h3 {
   margin: 0;
   font-size: 32px;
@@ -44,7 +42,9 @@
   letter-spacing: 0em;
   text-align: right;
 }
-
+#media{
+  margin-top: 30px;
+}
 .footer__needs__buttom {
   width: fit-content;
   max-width: 90%;
@@ -56,13 +56,12 @@
   display: flex;
   flex-wrap: wrap;
   gap: 18px;
-  margin-bottom: 63px;
 }
 
 .footer__needs__buttom nav button {
   width: 176px;
   height: 70px;
-  background-color: #2b2e66;
+  background-color: #425ea6;
   color: #fff;
   border: 0;
   border-radius: 5px;
@@ -92,7 +91,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   box-sizing: border-box;
-  padding: 30px 20px;
+  padding: 30px 52px;
 }
 
 .links__block {
@@ -111,7 +110,9 @@
   text-align: left;
   color: #fff;
 }
-
+#media{
+  align-items: end;
+}
 .links__block a,
 .links__block span {
   margin: 0;
@@ -137,8 +138,11 @@
 }
 
 @media screen and (min-width: 850px) {
+  #media{
+    margin-top: 0px;
+  }
   .footer__links {
-    padding: 30px 150px;
+    padding: 30px 179px;
   }
 
   .links__block {

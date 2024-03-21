@@ -1,47 +1,57 @@
-<!DOCTYPE html>
+
+<!DOCTYPE html><!-- Создаем html-документ  -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Название логотипа в шапке -->
     <title>Крыло здоровья</title>
+    <!-- Подключение стилей -->
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./footer.css" />
     <link rel="stylesheet" href="./header.css" />
-    <link rel="icon" href="./images/icoo.png" type="image/x-icon">
+    <!-- Иконка логотипа в шапке -->
+    <link rel="icon" href="./images/icooo.svg" type="image/x-icon" />
+    <!-- Подключение скрипта  -->
     <script src="./down1.js"></script>
   </head>
   <body>
+    <!-- Кнопки, отвечающие за меню и навигацию -->
     <div class="naviga">
-      <img id="n1" src="./svg/запиь.svg">
-      <img id="n2" src="./svg/place.svg">
-      <img id="n3" src="./svg/calli.svg">
+      <button id="MENU"><img src="./svg/calli.svg" /></button>
+      <a href="#button1"><button><img id="n1" src="./svg/запиь.svg" /></button></a>
+      <a href="#button2"><button><img id="n2" src="./svg/place.svg" /></button></a>
     </div>
+    <!-- Верхняя панель с логотипом, входом и аккаунтом  -->
     <header class="header">
-      <div class="header__phone-number">
-        <span>Телефон: 00-00-00</span>
-      </div>
       <section class="header__buttons">
-        <img class="header__logo" src="./images/logo.png" alt="error" />
+        <img class="header__logo" src="./images/logo.svg" alt="error" />
         <section class="header__buttons__right">
-          <a href="https://www.gosuslugi.ru/"><button class="button header__gosu-login">
-            <img src="./images/gosu.svg" alt="error" />
-            Войти через госуслуги
+          <a href="https://www.gosuslugi.ru/"
+            ><button class="button header__gosu-login">
+              <img src="./images/gosu.svg" alt="error" />
+              Войти через госуслуги
+            </button></a>
+            <a href="./index4.html"
+            ><button class="button header__login">
+            <img src="./images/и.png" alt="error" />
           </button></a>
-          <button class="button header__login">
-            <img src="./images/account.png" alt="error" />
-          </button>
         </section>
       </section>
     </header>
-
+<!-- Главный класс, содержащий основной контент страницы -->
     <main class="main">
+      <!-- Класс с первым макетом -->
       <section class="main__first-screen">
         <section class="main__first-screen__top">
+          <!-- Добавление картинки с лозунгом компании -->
           <img id="pipi1" src="./images/first_screen.jpg" alt="" />
           <h1 id="pipi">Здоровье – наше приоритетное направление</h1>
         </section>
+        <!-- Элемент макета с основными характеристиками компании -->
         <section class="main__first-screen__bottom">
+          <!-- Модификатор 1 характеристика -->
           <section class="bottom__block bottom__block--light-blue">
             <div class="bottom__block__header">
               <h2>Комфортно</h2>
@@ -51,6 +61,7 @@
               способствует благоприятному психологическому вашему состоянию.
             </p>
           </section>
+          <!-- Модификатор 2 характеристика -->
           <section class="bottom__block bottom__block--blue">
             <div class="bottom__block__header">
               <h2>Специально</h2>
@@ -61,6 +72,7 @@
               медицинских профессионалов.
             </p>
           </section>
+          <!-- Модификатор 3 характеристика -->
           <section class="bottom__block bottom__block--dark-blue">
             <div class="bottom__block__header">
               <h2>Правильно</h2>
@@ -71,6 +83,7 @@
               потребности в одном месте.
             </p>
           </section>
+          <!-- Модификатор 4 характеристика -->
           <section class="bottom__block bottom__block--blue">
             <div class="bottom__block__header">
               <h2>Современно</h2>
@@ -83,58 +96,65 @@
         </section>
       </section>
 
-      <section class="main__doctors">
-        <h2>Наши врачи</h2>
+      <section id="button1" class="main__doctors">
+        <h2>Наши специалисты</h2>
 
         <div>
           <section class="doctors__block">
             <img src="./images/doctors/brain.png" alt="error" />
             <h3>Психолог</h3>
-            <a href="./index2.html"><button class="button button--doctors">Узнать больше</button></a>
+            <a href="./index2.html"
+              ><button class="button button--doctors">Узнать больше</button></a
+            >
           </section>
           <section class="doctors__block">
             <img src="./images/doctors/heart.png" alt="error" />
             <h3>Кардиолог</h3>
-            <a href="./index2.html"><button class="button button--doctors">Узнать больше</button></a>
+            <a href="./index2.html"
+              ><button class="button button--doctors">Узнать больше</button></a
+            >
           </section>
           <section class="doctors__block">
             <img src="./images/doctors/cardio.png" alt="error" />
             <h3 id="hirurg">Хирург</h3>
-            <a href="./index2.html"><button class="button button--doctors" id="hirurg">Узнать больше</button></a>
+            <a href="./index2.html"
+              ><button class="button button--doctors" id="hirurg">
+                Узнать больше
+              </button></a
+            >
           </section>
           <section class="doctors__block">
             <img src="./images/doctors/tooth.png" alt="error" />
             <h3>Стоматолог</h3>
-            <a href="./index2.html"><button class="button button--doctors">Узнать больше</button></a>
+            <a href="./index2.html"
+              ><button class="button button--doctors">Узнать больше</button></a
+            >
           </section>
           <section class="doctors__block">
             <img src="./images/doctors/hands.png" alt="error" />
             <h3>Терапевт</h3>
-            <a href="./index2.html"><button class="button button--doctors">Узнать больше</button></a>
+            <a href="./index2.html"
+              ><button class="button button--doctors">Узнать больше</button></a
+            >
           </section>
           <section class="doctors__block">
             <img src="./images/doctors/pills.png" alt="error" />
             <h3 id="hirurg">Аллерголог</h3>
-            <a href="./index2.html"><button class="button button--doctors" id="hirurg">Узнать больше</button> </a>
+            <a href="./index2.html"
+              ><button class="button button--doctors" id="hirurg">
+                Узнать больше
+              </button>
+            </a>
           </section>
         </div>
       </section>
 
-      <section class="main__map">
+      <section id="button2" class="main__map">
+        <h2 id="need">Наше местоположение</h2>
         <section class="main__map__left">
+          <h3 id="bubu">г. Омск, Богомолова 45в</h3>
           <img src="./images/map.png" alt="error" />
-        </section>
-        <section class="main__map__right">
-          <h2>Наше местоположение</h2>
-          <p>
-            г. Омск, Богомолова 45в<br />Поликлиника "Крыло здоровья" находится по адресу
-            Богомолова 45в. Это современное и уютное медицинское учреждение,
-            предлагающее широкий спектр медицинских услуг для всех возрастных
-            групп. Поликлиника расположена в удобном и доступном месте, что
-            обеспечивает удобство для пациентов. Рядом с поликлиникой имеется
-            большая парковка, что позволяет пациентам приехать на собственном
-            автомобиле.
-          </p>
+          <h3 id="bubu1">Часы работы учреждения: 8.00 - 20.00</h3>
         </section>
       </section>
 
@@ -143,20 +163,20 @@
 
         <section class="last-screen__buttom">
           <section>
-            <h3>44</h3>
-            <span>Наград</span>
-          </section>
-          <section>
-            <h3>226</h3>
-            <span>Сотрудника</span>
-          </section>
-          <section>
             <h3>30,000</h3>
             <span>Клиентов</span>
           </section>
           <section>
+            <h3>60</h3>
+            <span>Сотрудников</span>
+          </section>
+          <section>
             <h3>500+</h3>
             <span>Услуг</span>
+          </section>
+          <section>
+            <h3>44</h3>
+            <span>Наград</span>
           </section>
         </section>
       </section>
@@ -164,15 +184,7 @@
 
     <footer class="footer">
       <section class="footer__needs">
-        <secction class="footer__needs__top">
-          <img src="./images/logo_white.svg" alt="error" />
-          <div>
-            <span>Часы работы учреждения:</span>
-            <h3>8.00 - 20.00</h3>
-          </div>
-        </secction>
         <secction class="footer__needs__buttom">
-          <h3>Мне нужно...</h3>
           <nav>
             <button class="button button--footer">COVID-19</button>
             <button class="button button--footer">Госуслуги</button>
@@ -185,43 +197,76 @@
         </secction>
       </section>
       <section class="footer__links">
-        <section class="links__block">
-          <h3>Сотрудники</h3>
-          <a href="">Карьера</a>
-          <a href="">Наставничество</a>
-          <a href="">Наша команда</a>
-          <a href="">Аккредитация</a>
-        </section>
-        <section class="links__block">
-          <h3>Пациенты и посетители</h3>
-          <a href="">Портал пациентов</a>
-          <a href="">Книга жалоб</a>
-          <a href="">Медицинские записи</a>
-          <a href="">Офисы</a>
-        </section>
-        <section class="links__block">
+        <section class="links__block" id="about">
           <h3>О нас</h3>
           <span>Почта</span>
           <a href="">winghealth@gmail.com</a>
           <span>Телефон</span>
           <a href="">7 (924) 000-00-00</a>
         </section>
-        <section class="links__block">
-          <h3>Источники</h3>
-          <a href="">Новости</a>
-          <a href="">Сертификаты</a>
-          <a href="">COVID-19</a>
-          <a href="">Центр помощи</a>
+        <section class="links__block" id="cond">
+          <h3>Политика конфиденциальности</h3>
+          <span>Сертификаты</span>
+          <a href="">Условия пользования</a>
         </section>
-        <section class="links__block">
+        <section class="links__block" id="media">
           <h3>Социальные сети</h3>
           <nav>
             <img src="./images/tg.svg" alt="error" />
             <img src="./images/vk.svg" alt="error" />
             <img src="./images/ok.svg" alt="error" />
-          </nav>
+          </nav><h3>Телефон: 00-00-00</h3>
         </section>
       </section>
     </footer>
+
+    <aside id="menu" class="menu">
+      <div class="menu_up">
+        <h2 id="op">Меню</h2>
+        <button id="anti-MENU" type="button">
+          <img src="./svg/arrowlw.svg" alt="" />
+        </button>
+      </div>
+      <div class="menu_main">
+        <div class="menu_main1">
+          <h2 id="op">Источники</h2>
+          <div class="menu_main1_ul">
+            <span>Новости</span>
+            <span>Сертификаты</span>
+            <span>COVID-19</span>
+            <span>Центр помощи</span>
+          </div>
+        </div>
+        <div class="menu_main1">
+          <h2 id="op">Пациенты и посетители</h2>
+          <div class="menu_main1_ul">
+            <span>Портал для пациентов</span>
+            <span>Книга жалоб</span>
+            <span>Медицинские записи</span>
+            <span>Офисы</span>
+          </div>
+        </div>
+        <div class="menu_main1">
+          <h2 id="op">Сотрудники</h2>
+          <div class="menu_main1_ul">
+            <span>Карьера</span>
+            <span>Наставничество</span>
+            <span>Наша команда</span>
+            <span>Аккредитация</span>
+          </div>
+        </div>
+      </div>
+    </aside>
   </body>
+  
+  <script>
+    document.getElementById("anti-MENU").addEventListener("click", () => {
+        document.getElementById("menu").classList.toggle("menu-active");
+      });
+    
+    document.getElementById("MENU").addEventListener("click", () => {
+        document.getElementById("menu").classList.toggle("menu-active");
+    });
+    
+    </script>
 </html>

@@ -10,10 +10,9 @@
   height: 37px;
   background-color: #2b2e66;
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
   align-items: center;
 }
-
 .header__phone-number span {
   margin-right: 16px;
   font-size: 20px;
@@ -24,7 +23,9 @@
 
   color: #ffffff;
 }
-
+a {
+  text-decoration: none; /* Убираем подчёркивание */
+ }
 .header__buttons {
   box-sizing: border-box;
   padding: 0 20px;
@@ -63,6 +64,42 @@
   background-color: #5b86c7;
 }
 
+.menu{
+  position: fixed;
+  left: -400px;
+  top: 0px;
+  margin: 0;
+  transition: all 0.3s;
+  position: fixed;
+  z-index: 99;
+  gap: 46px;
+  background-color: #2b2e66;
+  color: #f2f2f2;
+  width: 360px;
+  height: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.menu h2{
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0em;
+
+  margin-bottom: 25px;
+}
+
+.menu-active {
+  left: 0;
+  transition: all 0.3s;
+  box-shadow: 16px 0px 52px 0px rgba(14, 24, 80, 0.2),
+    -2px 0px 4px 0px rgba(69, 79, 126, 0.02);
+}
+
 .header__login {
   width: 36px;
   height: 36px;
@@ -70,7 +107,27 @@
   border: 0;
   background-color: #425ea6;
 }
+.menu_main{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 400px;
+}
+.menu_main1_ul{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.menu_main1_ul:hover{
+  cursor: pointer;
+}
+#anti-MENU:hover{
+  cursor: pointer;
+}
+.menu_main1_ul span:active{
+  transform: scale(0.9);
 
+}
 @media screen and (min-width: 850px) {
   .header__logo {
     margin-left: 174px;
@@ -83,4 +140,16 @@
   .header__buttons {
     padding: 0;
   }
+}
+#op {
+  color: #f2f2f2;
+}
+button{
+  background-color: #ce515100;
+  border: none;
+}
+
+.menu_up {
+  display: flex;
+  justify-content: space-between;
 }
